@@ -1,4 +1,5 @@
 $ring-offset-key: 'offset';
+$ring-bottom-extra-offset-key: 'bottom-extra-offset';
 $ring-color-key: 'color';
 $track-width-key: 'track-width';
 $target-shape-key: 'target-shape';
@@ -11,6 +12,7 @@ $default-theme: (
   $track-width-key: 3px,
   $ring-color-key: 'secondary',
   $target-shape-key: 0px,
+  $ring-bottom-extra-offset-key: 0px,
 );
 
 @mixin focus-ring-animation($grow-animation-name, $shrink-animation-name) {
