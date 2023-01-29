@@ -210,6 +210,7 @@
 
       @include feature-targeting.targets($feat-structure) {
         // Retain transform from mdc-ripple-fg-radius-in activation
+        @include rtl.ignore-next-line();
         transform: translate(var(--mdc-ripple-fg-translate-end, 0))
           scale(var(--mdc-ripple-fg-scale, 1));
       }
